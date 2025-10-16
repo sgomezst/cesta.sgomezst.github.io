@@ -9,6 +9,12 @@
     <meta property="og:title" content="Descubre la Cesta de Navidad" />
     <meta property="og:description" content="Una cesta llena de sorpresas: libros, snacks y regalos. ¡Desliza para verlos todos!" />
     <meta property="og:image" content="/preview.png" />
+    <!-- Additional image properties to improve support in messengers like WhatsApp -->
+    <meta property="og:image:secure_url" content="https://your-domain.example/preview.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <link rel="image_src" href="/preview.png" />
     <meta property="og:type" content="website" />
     <!-- Optional: set the canonical URL if you have one -->
     <!-- <meta property="og:url" content="https://tusitio.example/" /> -->
@@ -17,6 +23,8 @@
     <meta name="twitter:title" content="Descubre la Cesta de Navidad" />
     <meta name="twitter:description" content="Una cesta llena de sorpresas: libros, snacks y regalos. ¡Desliza para verlos todos!" />
     <meta name="twitter:image" content="/preview.png" />
+    <!-- NOTE: For best compatibility with WhatsApp and other messengers, use an absolute HTTPS URL
+        in og:image and og:image:secure_url (replace https://your-domain.example/preview.png). -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
